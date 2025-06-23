@@ -1,11 +1,11 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "KingfisherWebP",
-    platforms: [.iOS(.v13), .tvOS(.v13), .watchOS(.v6), .macOS(.v10_15)], 
+    platforms: [.iOS(.v14), .tvOS(.v14), .watchOS(.v6), .macOS(.v10_15)], 
     products: [
         .library(name: "KingfisherWebP", targets: ["KingfisherWebP"])
     ],
